@@ -10,6 +10,7 @@
 __doc__     = 'Plugin voor QGis om metadata aan te maken'
 __rights__  = 'Jan van Sambeek'
 __author__  = 'Jan van Sambeek'
+__license__  = 'GNU Lesser General Public License, version 3 (LGPL-3.0)'
 __date__    = ['10-2019']
 __version__ = '1.0.0'
 
