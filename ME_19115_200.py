@@ -33,6 +33,7 @@
 __doc__      = 'Plugin voor QGis om metadata aan te maken volgens het Nederlandse ISO profiel 19115 2.0.0'
 __rights__   = 'Jan van Sambeek'
 __author__   = 'Jan van Sambeek'
+__license__  = 'GNU Lesser General Public License, version 3 (LGPL-3.0)'
 __date__     = ['04-2019']
 __version__  = '0.9.5'
 
