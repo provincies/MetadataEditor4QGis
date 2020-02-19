@@ -9,5 +9,8 @@ https://www.python.org/downloads
 In het programma wordt gebruik gemaakt van de volgende externe libraries:
 
 https://pypi.org/project/requests/
+
 https://pypi.org/project/Pillow/
+
 https://pypi.org/project/lxml/
+
