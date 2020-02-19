@@ -1,0 +1,92 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file '/home/jan/.local/share/QGIS/QGIS3/profiles/default/python/plugins/Metadata_Editor/ui/ME_19110_2016_ui.ui'
+#
+# Created by: PyQt5 UI code generator 5.10.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_ME_19110_2016(object):
+    def setupUi(self, ME_19110_2016):
+        ME_19110_2016.setObjectName("ME_19110_2016")
+        ME_19110_2016.resize(1131, 571)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(ME_19110_2016.sizePolicy().hasHeightForWidth())
+        ME_19110_2016.setSizePolicy(sizePolicy)
+        self.gridLayout = QtWidgets.QGridLayout(ME_19110_2016)
+        self.gridLayout.setObjectName("gridLayout")
+        self.tabWidget = QtWidgets.QTabWidget(ME_19110_2016)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Ignored)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.tabWidget.sizePolicy().hasHeightForWidth())
+        self.tabWidget.setSizePolicy(sizePolicy)
+        self.tabWidget.setMinimumSize(QtCore.QSize(1081, 0))
+        self.tabWidget.setMaximumSize(QtCore.QSize(1113, 10000))
+        self.tabWidget.setObjectName("tabWidget")
+        self.InhoudTab = QtWidgets.QWidget()
+        self.InhoudTab.setObjectName("InhoudTab")
+        self.scrollArea = QtWidgets.QScrollArea(self.InhoudTab)
+        self.scrollArea.setEnabled(True)
+        self.scrollArea.setGeometry(QtCore.QRect(9, 9, 1081, 471))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.scrollArea.sizePolicy().hasHeightForWidth())
+        self.scrollArea.setSizePolicy(sizePolicy)
+        self.scrollArea.setMaximumSize(QtCore.QSize(1081, 3000))
+        self.scrollArea.setBaseSize(QtCore.QSize(0, 0))
+        self.scrollArea.setFrameShape(QtWidgets.QFrame.Box)
+        self.scrollArea.setFrameShadow(QtWidgets.QFrame.Sunken)
+        self.scrollArea.setLineWidth(2)
+        self.scrollArea.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollArea.setAlignment(QtCore.Qt.AlignJustify|QtCore.Qt.AlignVCenter)
+        self.scrollArea.setObjectName("scrollArea")
+        self.scrollAreaWidgetContents = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 1073, 463))
+        self.scrollAreaWidgetContents.setObjectName("scrollAreaWidgetContents")
+        self.formLayout = QtWidgets.QFormLayout(self.scrollAreaWidgetContents)
+        self.formLayout.setObjectName("formLayout")
+        self.label = QtWidgets.QLabel(self.scrollAreaWidgetContents)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.label.sizePolicy().hasHeightForWidth())
+        self.label.setSizePolicy(sizePolicy)
+        self.label.setObjectName("label")
+        self.formLayout.setWidget(0, QtWidgets.QFormLayout.LabelRole, self.label)
+        self.label_2 = QtWidgets.QLabel(self.scrollAreaWidgetContents)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.label_2.sizePolicy().hasHeightForWidth())
+        self.label_2.setSizePolicy(sizePolicy)
+        self.label_2.setObjectName("label_2")
+        self.formLayout.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.label_2)
+        self.scrollArea.setWidget(self.scrollAreaWidgetContents)
+        self.tabWidget.addTab(self.InhoudTab, "")
+        self.gridLayout.addWidget(self.tabWidget, 0, 0, 1, 1)
+        self.pb_Opslaan = QtWidgets.QPushButton(ME_19110_2016)
+        font = QtGui.QFont()
+        font.setStyleStrategy(QtGui.QFont.PreferAntialias)
+        self.pb_Opslaan.setFont(font)
+        self.pb_Opslaan.setObjectName("pb_Opslaan")
+        self.gridLayout.addWidget(self.pb_Opslaan, 1, 0, 1, 1)
+
+        self.retranslateUi(ME_19110_2016)
+        self.tabWidget.setCurrentIndex(0)
+        QtCore.QMetaObject.connectSlotsByName(ME_19110_2016)
+
+    def retranslateUi(self, ME_19110_2016):
+        _translate = QtCore.QCoreApplication.translate
+        ME_19110_2016.setWindowTitle(_translate("ME_19110_2016", "Metadata Editor ISO 19110 2016"))
+        self.label.setText(_translate("ME_19110_2016", "<html><head/><body><p><span style=\" font-size:12pt; font-weight:600;\">Attribuut naam:</span></p></body></html>"))
+        self.label_2.setText(_translate("ME_19110_2016", "<html><head/><body><p><span style=\" font-size:12pt; font-weight:600;\">Attribuut omschrijving:</span></p></body></html>"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.InhoudTab), _translate("ME_19110_2016", "Attribuut gegevens"))
+        self.pb_Opslaan.setText(_translate("ME_19110_2016", "Opslaan"))
+
