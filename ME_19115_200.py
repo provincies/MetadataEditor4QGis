@@ -4,9 +4,9 @@
 # ----- GEBRUIKTE SOFTWARE ---------------------------------------------
 #
 # python-3         http://www.python.org
-# pil
-# requests
-# lxml
+# pil              https://pypi.org/project/Pillow/
+# requests         https://pypi.org/project/requests/
+# lxml             https://pypi.org/project/lxml/
 #
 # ----- PREFIX VARIABELEN ----------------------------------------------
 #
